@@ -14,4 +14,8 @@ public class PrintCourses {
     public static void printAllBiggerThan4Char(){
         courses.stream().filter(course -> course.length() > 4).forEach(System.out::println);
     }
+
+    public static void printLengthCourses(){
+        courses.stream().map(course -> course.length()).forEach(System.out::println);
+    }
 }

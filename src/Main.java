@@ -15,7 +15,8 @@ public class Main {
         System.out.println("CUBE OF THE ODD NUMBERS");
         PrintNumbers.printCubeOfOddNumbers();
 
-        System.out.println("");
+        System.out.println("LENGTH OF EACH COURSE");
+        PrintCourses.printLengthCourses();
 
     }
 }
