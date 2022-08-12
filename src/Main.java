@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
         System.out.println("ODD NUMBERS");
-        PrintOddNumbers.print();
+        PrintNumbers.printOddNumbers();
 
         System.out.println("ALL COURSES");
         PrintCourses.printIndividually();
@@ -11,6 +11,11 @@ public class Main {
 
         System.out.println("ALL COURSES THAT LENGTH ARE BIGGER THAN 4 CHARACTERS");
         PrintCourses.printAllBiggerThan4Char();
+
+        System.out.println("CUBE OF THE ODD NUMBERS");
+        PrintNumbers.printCubeOfOddNumbers();
+
+        System.out.println("");
 
     }
 }
